@@ -1,0 +1,13 @@
+{
+  "name": "roxiler-store-rating-platform",
+  "version": "1.0.0",
+  "description": "Full-stack Store Rating platform with RBAC (Admin, Normal User, Store Owner), Express.js, Prisma, MySQL, and React Vite.",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build"
+  }
+}
